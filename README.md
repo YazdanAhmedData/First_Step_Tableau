@@ -1,118 +1,43 @@
-# 📊 First Step Tableau — Sales Dashboard
+# Sales Performance Dashboard | Tableau
 
-<img width="2586" height="1652" alt="image" src="https://github.com/user-attachments/assets/c0bc287a-a2eb-47ae-a3b1-89a4b3717c01" />
+A foundational Tableau project built around historical order, manager, and returns data. It explores how sales performance and returns can be reviewed through an interactive business dashboard.
 
-A Tableau-based sales analytics project created to explore business performance using historical order, manager, and return data.
+## Objective
+Create a clear visual overview of sales activity and related dimensions, including time, manager, and returns, to practise the core workflow of turning business data into dashboard reporting.
 
-This project represents my first step into **Tableau and Business Intelligence**, focusing on transforming raw business data into interactive dashboards and visual insights.
+## Questions to Explore
+- How does sales activity change over time?
+- How does performance compare across managers?
+- What return patterns appear in the available records?
+- Which views help a stakeholder investigate changes in sales performance?
 
-## 🎯 Project Objective
+## Tools and Data
+- **Tableau** — data visualization and dashboard development
+- Order data for 2015, 2016, and 2017
+- Manager and returns datasets
 
-The objective of this project is to analyze sales and order performance across multiple years and present the results through interactive Tableau visualizations.
+## Repository Contents
+| File | Purpose |
+|---|---|
+| FirstStep.twbx | Packaged Tableau workbook |
+| Orders 2015.csv | Order records for 2015 |
+| Orders 2016.csv | Order records for 2016 |
+| Order 2017.csv | Order records for 2017 |
+| Managers.csv | Manager reference data |
+| Returns.csv | Returns data |
 
-The project focuses on:
+## How to Explore
+1. Open FirstStep.twbx in Tableau Desktop.
+2. Review the dashboard filters and calculated fields.
+3. Inspect the source data to understand how orders, managers, and returns are related.
+4. Verify the definition of each metric before using it to compare performance.
 
-- Sales performance
-- Order trends
-- Regional/business performance
-- Manager performance
-- Returns analysis
-- Year-wise comparisons
-- Business KPIs
+## What This Project Demonstrates
+This project represents an early step in Tableau dashboard development and demonstrates basic sales reporting, time-based comparisons, manager-level views, and return analysis. It is best understood as a foundational visualization project, complemented by more advanced SQL and business analytics work elsewhere in this portfolio.
 
-## 📂 Dataset
+## Skills Demonstrated
+Tableau · Dashboard design · Sales reporting · Time-series exploration · Returns analysis · Data visualization
 
-The project contains data covering multiple years of business activity.
-
-### Available datasets
-
-- `Orders 2015.csv`
-- `Orders 2016.csv`
-- `Order 2017.csv`
-- `Managers.csv`
-- `Returns.csv`
-
-These datasets provide the foundation for analyzing sales, orders, management performance, and returned products.
-
-## 📊 Dashboard
-
-The analysis was developed using **Tableau**.
-
-The Tableau packaged workbook is included in the repository:
-
-```text
-FirstStep.twbx
-```
-
-## 🔍 Analysis Areas
-
-The dashboard can be used to explore:
-
-### Sales Performance
-- Sales trends
-- Year-wise performance
-- Business growth patterns
-- Performance across different segments
-
-### Manager Analysis
-- Manager-level performance
-- Comparison between managers
-- Sales contribution
-
-### Returns Analysis
-- Returned orders
-- Return patterns
-- Impact of returns on overall performance
-
-### Time-Based Analysis
-- Year-wise comparisons
-- Sales trends over time
-- Changes in business performance
-
-## 🛠️ Tools & Technologies
-
-- Tableau
-- Microsoft Excel / CSV
-- Data Visualization
-- Business Intelligence
-- Data Analysis
-
-## 📁 Project Structure
-
-```text
-First_Step_Tableau/
-│
-├── FirstStep.twbx
-├── Managers.csv
-├── Order 2017.csv
-├── Orders 2015.csv
-├── Orders 2016.csv
-├── Returns.csv
-└── README.md
-```
-
-## 🎓 Key Learning Outcomes
-
-This project helped me build a practical understanding of:
-
-- Tableau dashboards
-- Data visualization
-- Connecting multiple datasets
-- Business KPIs
-- Interactive reporting
-- Trend analysis
-- Presenting insights visually
-
-## 💡 Business Value
-
-Interactive dashboards help businesses monitor performance and quickly identify trends, opportunities, and areas requiring attention.
-
-This project demonstrates how Tableau can be used to transform raw sales data into an understandable business intelligence solution.
-
-## 👨‍💻 Author
-
-**Yazdan Ahmed**
-
-Data Analytics & Machine Learning Enthusiast
-
-GitHub: [YazdanAhmedData](https://github.com/YazdanAhmedData)
+## Author
+**Yazdan Ahmed**  
+[GitHub Portfolio](https://github.com/YazdanAhmedData)
